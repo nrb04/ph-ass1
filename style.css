@@ -5,6 +5,7 @@
 
 html {
   height: 100%;
+  max-width: 1200px;
 }
 body {
   min-height: 75%;
@@ -93,7 +94,7 @@ body {
   position: absolute;
   width: 569px;
   height: 723.3px;
-  left: 206px;
+  left: 100px;
   top: 939px;
   background-color: bisque;
   
@@ -145,7 +146,7 @@ ul li::marker {
   position: absolute;
 width: 1141px;
 height: 400px;
-left: 10%;
+left: 100px;
 top: 1792.3px;
 background-color:azure;
 }
@@ -178,7 +179,7 @@ text-align: center;
 
 }
 .plan-discription{
-  font-family: 'Work Sans';
+font-family: 'Work Sans';
 font-style: normal;
 font-weight: 500;
 font-size: 25px;
@@ -188,10 +189,10 @@ text-align: center;
 
 
 .gardian-container{
-  position: absolute;
+position: absolute;
 width: 1140px;
 height: 300px;
-left: 10%;
+left: 100px;
 top: 2222px; 
 background-image:  linear-gradient(90deg, #005FAC -1.36%, rgba(0, 95, 172, 0) 98.64%),url("./images/watch.png"); 
 
@@ -215,15 +216,20 @@ color: white;
 
 
 .footer{
-  display: flex;
-  top: 2651.96px;
-  gap: 330px;
-  background-color: #151414;
-  justify-content: space-between;
+position: absolute;
+width: 1140px;
+height: 400px;
+left: 100px;
+top: 2550px;
+display: flex;
+gap: 30px;
+background-color: #151414;
+justify-content: space-between;
 }
+
 .lfooter{
 color: white;
-margin-top: 130px;
+margin-top: 50px;
 margin-left: 230px;
 margin-bottom: 130px;
 position: relative;
